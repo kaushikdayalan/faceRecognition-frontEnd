@@ -11,7 +11,7 @@ const MainRouter = ()=>(
     <div>
         <AuthProvider>
         <Switch>
-            <Route path="/signup" component={Signup}/>
+            <Route path="/" component={Signup}/>
             <Route path="/signin" component={Signin}/>
             <PrivateRoute path="/menu" component={Menu}></PrivateRoute>
         </Switch>
